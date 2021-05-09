@@ -6,7 +6,8 @@
     {
       "label": "Start dev server",
       "type": "shell",
-      "command": "npx live-server"
+      "command": "npx live-server",
+      "problemMatcher": []
     }
   ]
 }
