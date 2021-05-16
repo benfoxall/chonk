@@ -6,7 +6,7 @@
     {
       "label": "Start dev server",
       "type": "shell",
-      "command": "npx node-static -H '{\"Cross-Origin-Embedder-Policy\": \"require-corp\", \"Cross-Origin-Opener-Policy\": \"same-origin\"}'",
+      "command": "npx node-static -H '{\"Cross-Origin-Embedder-Policy\": \"require-corp\", \"Cross-Origin-Opener-Policy\": \"same-origin\", \"Cache-Control\": \"no-cache, must-revalidate\"}'",
       "problemMatcher": []
     }
   ]
